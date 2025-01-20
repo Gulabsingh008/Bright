@@ -2,7 +2,7 @@ from pyrogram import Client as bot, filters
 from config import Config
 import shutil
 import os
-from master import masterdl
+from requirements import masterdl
 
 @bot.on_message(filters.command("drm"))#Here You Can Change Command
 async def account_login(bot, m):
