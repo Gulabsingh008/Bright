@@ -1,7 +1,7 @@
 from pyrogram import Client as bot, filters
 from pyrogram.types import Message
 import asyncio
-from master import helper
+from requirements import helper
 from config import Config
 
 class Data:
